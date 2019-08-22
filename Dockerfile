@@ -1,7 +1,7 @@
 FROM node:carbon                                                                                                                                                                                
 WORKDIR /app
 
-COPY . /app/node
+COPY . /app
 RUN npm install
 
 CMD node bin/www
